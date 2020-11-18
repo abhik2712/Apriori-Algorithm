@@ -48,3 +48,8 @@ such poor performance. We tried to improve the model in the next application.
 - Sentence :"Not as Advertised"
 - Output : Negative review with 55.76 % Accuracy
 - The model performed quite better than the previous with predicting actual sentiment although with quite less accuracy. 
+
+### Model 3: 
+- Performed Text Preprocessing using Tf-Idf vectorizer method.
+- Implemented a simple neural network module using two hidden layers.
+- The output layer is a dense layer with 5 output units(representing 5 scores for reviews).
