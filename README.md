@@ -30,7 +30,7 @@
 ### Model 1 : 
 
 - Perform padding of sequences
-- LSTM with single hidden dense layer
+- **LSTM with single hidden dense layer**
 - Use Keras.Embedding layer for embeddings of similar and disimilar words in n-dimensions.
 - **Performance** : Accuracy - 83.67%
 - **Example:**
@@ -41,7 +41,7 @@ such poor performance. We tried to improve the model in the next application.
 
 ### Model 2:
 
-- Added multiple LSTM layers along with dropout with probability 0.25 and 0.5 respectively.
+- Added **multiple LSTM layers along with dropout with probability 0.25 and 0.5 respectively**.
 - Remaining model remained the same as above.
 - **performance** : Accuracy : 84.42%
 -**Example** - 
@@ -53,3 +53,10 @@ such poor performance. We tried to improve the model in the next application.
 - Performed Text Preprocessing using Tf-Idf vectorizer method.
 - Implemented a simple neural network module using two hidden layers.
 - The output layer is a dense layer with 5 output units(representing 5 scores for reviews).
+
+### Model 4
+- Dataset : [IMDB movie review](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+- Performed Text Processing and Word Embeddings using the pre-trained [Google news word2vec model](https://code.google.com/archive/p/word2vec/)
+- Performed sentiment analysis using **CNN model**
+- Applied five differnt sized filters in the CNN model
+- Output : To predict score(positive(1) or negative(0) on the unseen data(Test data here).
